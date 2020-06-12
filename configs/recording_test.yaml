@@ -32,20 +32,20 @@ pages:
         These can be dragged at any time to listen to the selected range of the audio on loop <br/>
         
         
-    - type: mushra
-      id: DistCinDrums
-      name: TEST 1 - SOURCE DISTANCE
-      content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
-      showWaveform: true
-      enableLooping: true
-      reference: configs/resources/audio/Test1/T1-Drums-45deg-4m-Huddersfield-KU100.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test1/T1-Drums-7.1.4-Anchor.wav
-          C2: configs/resources/audio/Test1/T1-Drums-AllRAD-7.1.4.wav
-          C3: configs/resources/audio/Test1/T1-Drums-DTS-7.1.4.wav
-          C4: configs/resources/audio/Test1/T1-Drums-Harpex-7.1.4.wav
+    # - type: mushra
+      # id: DistCinDrums
+      # name: TEST 1 - SOURCE DISTANCE
+      # content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
+      # showWaveform: true
+      # enableLooping: true
+      # reference: configs/resources/audio/Test1/T1-Drums-45deg-4m-Huddersfield-KU100.wav
+      # createAnchor35: false
+      # createAnchor70: false
+      # stimuli:
+          # C1: configs/resources/audio/Test1/T1-Drums-7.1.4-Anchor.wav
+          # C2: configs/resources/audio/Test1/T1-Drums-AllRAD-7.1.4.wav
+          # C3: configs/resources/audio/Test1/T1-Drums-DTS-7.1.4.wav
+          # C4: configs/resources/audio/Test1/T1-Drums-Harpex-7.1.4.wav
     - type: mushra
       id: distCinVoice
       name: TEST 2 - SOURCE DISTANCE
