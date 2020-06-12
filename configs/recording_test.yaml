@@ -12,9 +12,9 @@ pages:
       name: Welcome
       content: >
         Welcome to the Ambisonic Decoder Listening Test part 2<br/>
-        This test is based on recorded tracks and more environmental characteristics <br/>
+        This test is based on recorded tracks and more environmental and listener-based characteristics <br/>
         Once the test is finished, please fill out the questinonnaire and submit. <br/>
-        You may take a break or pull out from doing the test at any moment. <br/>
+        You may take a break or pull out from doing the test at any time you like. <br/>
         Thank you! <br/>
         
     - type: generic
@@ -22,276 +22,156 @@ pages:
       name: Instructions
       content: > 
         This is the second half of the test. This half will test the following characteristics; <br/>
-        Externalisation, Width, Listener envelopment, Timbre & Overall preference <br/> <br/>
+        Source Distance, Ensemble Width, Listener Envelopment, Timbre <br/> <br/>
         For each characteristic there will be an available reference on the left hand side of the page which you can listen to at any time. <br/>
         There will be a number of audio files for you to listen to which must be rated from 0-100 using the associated sliders. <br/>
         This rating should be based on how similar the selected audio file is to the reference file for the given characteristic. <br/>
         A rating of 0 would describe the chosen file as pure noise and a rating of 100 would state the file has no difference to the available reference. <br/> <br/>
         Please ensure to compare the selected track against the REFERENCE ONLY and not to the other audio files. <br/> <br/>
         There are also two sliders under the waveform of the audio file. <br/>
-        These can be dragged at any time to listen to certain points of the audio file in a looped fashion. <br/>
+        These can be dragged at any time to listen to the selected range of the audio on loop <br/>
         
         
     - type: mushra
-      id: distCube1
-      name: EXTERNALISATION - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the externalisation of the track is to the available reference.
+      id: DistCinDrums
+      name: TEST 1 - SOURCE DISTANCE
+      content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/externalisation/marsh_ref.wav 
+      reference: configs/resources/audio/Test1/T1-Drums-45deg-4m-Huddersfield-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/externalisation/cube/marsh_allrad.wav 
-          C2: configs/resources/audio/externalisation/cube/marsh_DTS.wav 
-          C3: configs/resources/audio/externalisation/cube/marsh_Harpex.wav
+          C1: configs/resources/audio/Test1/T1-Drums-7.1.4-Anchor.wav
+          C2: configs/resources/audio/Test1/T1-Drums-AllRAD-7.1.4.wav
+          C3: configs/resources/audio/Test1/T1-Drums-DTS-7.1.4.wav
+          C4: configs/resources/audio/Test1/T1-Drums-Harpex-7.1.4.wav
     - type: mushra
-      id: distCube2
-      name: EXTERNALISATION - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the externalisation of the track is to the available reference.
+      id: distCinVoice
+      name: TEST 2 - SOURCE DISTANCE
+      content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/externalisation/opera_ref.wav 
+      reference: configs/resources/audio/Test2/T2-Speech-45deg-4m-Huddersfield-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/externalisation/cube/opera_allrad.wav 
-          C2: configs/resources/audio/externalisation/cube/opera_DTS.wav 
-          C3: configs/resources/audio/externalisation/cube/opera_Harpex.wav
+          C1: configs/resources/audio/Test2/T2-Speech-DTS-7.1.4.wav
+          C2: configs/resources/audio/Test2/T2-Speech-7.1.4-Anchor.wav
+          C3: configs/resources/audio/Test2/T2-Speech-Harpex-7.1.4.wav
+          C4: configs/resources/audio/Test2/T2-Speech-AllRAD-7.1.4.wav
     - type: mushra
-      id: distCinema1
-      name: EXTERNALISATION - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the externalisation of the track is to the available reference.
+      id: distCubeDrums
+      name: TEST 3 - SOURCE DISTANCE
+      content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/externalisation/marsh_ref.wav 
+      reference: configs/resources/audio/Test3/T3-Drums-330deg-3m-Huddersfield-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/externalisation/7.1.4/7.1.4_marsh_allrad.wav 
-          C2: configs/resources/audio/externalisation/7.1.4/7.1.4_marsh_DTS.wav 
-          C3: configs/resources/audio/externalisation/7.1.4/7.1.4_marsh_harpex.wav
+          C1: configs/resources/audio/Test3/T3-Drums-AllRad-Cube.wav
+          C2: configs/resources/audio/Test3/T3-Drums-Harpex-Cube.wav
+          C3: configs/resources/audio/Test3/T3-Drums-DTS-Cube.wav
+          C4: configs/resources/audio/Test3/T3-Drums-Cube-Anchor.wav
     - type: mushra
-      id: distCinema2
-      name: EXTERNALISATION - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the externalisation of the track is to the available reference.
+      id: distCubeVoice
+      name: TEST 4 - SOURCE DISTANCE
+      content: Please rate the test files from 0-100 on how similar the distance of the sound source of the track is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/externalisation/opera_ref.wav 
+      reference: configs/resources/audio/Test4/T4-Speech-330deg-3m-Huddersfield-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/externalisation/7.1.4/7.1.4_opera_allrad.wav 
-          C2: configs/resources/audio/externalisation/7.1.4/7.1.4_opera_DTS.wav 
-          C3: configs/resources/audio/externalisation/7.1.4/7.1.4_opera_harpex.wav
+          C1: configs/resources/audio/Test4/T4-Speech-DTS-Cube.wav
+          C2: configs/resources/audio/Test4/T4-Speech-Cube-Anchor.wav
+          C3: configs/resources/audio/Test4/T4-Speech-Harpex-Cube.wav
+          C4: configs/resources/audio/Test4/T4-Speech-AllRad-Cube.wav
     - type: mushra
-      id: ensembleCube1
-      name: WIDTH - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      id: CinEnsemble
+      name: TEST 5 - ENSEMBLE WIDTH
+      content: Please rate the test files from 0-100 on how similar the width of the ensemble is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/width/alex_ref.wav
+      reference: configs/resources/audio/Test5/T5-Ensemble-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/width/cube/alex_allRad.wav
-          C2: configs/resources/audio/width/cube/alex_DTS.wav
-          C3: configs/resources/audio/width/cube/alex_Harpex.wav
+          C1: configs/resources/audio/Test5/T5-Ensemble-DTS-7.1.4.wav
+          C2: configs/resources/audio/Test5/T5-Ensemble-Harpex-7.1.4.wav
+          C3: configs/resources/audio/Test5/T5-Ensemble-AllRad-7.1.4.wav
+          C4: configs/resources/audio/Test5/T5-Ensemble-Anchor-7.1.4.wav
     - type: mushra
-      id: ensembleCube2
-      name: WIDTH - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      id: CubeEnsemble
+      name: TEST 6 - ENSEMBLE WIDTH
+      content: Please rate the test files from 0-100 on how similar the width of the ensemble is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/width/fever_ref.wav
+      reference: configs/resources/audio/Test6/T6-Ensemble-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/width/cube/fever_allRad.wav
-          C2: configs/resources/audio/width/cube/fever_DTS.wav
-          C3: configs/resources/audio/width/cube/fever_Harpex.wav
+          C1: configs/resources/audio/Test6/T6-Ensemble-Harpex-Cube.wav
+          C2: configs/resources/audio/Test6/T6-Ensemble-Anchor.wav
+          C3: configs/resources/audio/Test6/T6-Ensemble-DTS-Cube.wav
+          C4: configs/resources/audio/Test6/T6-Ensemble-AllRad-Cube.wav
     - type: mushra
-      id: ensembleCinema1
-      name: WIDTH - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      id: CinEnv
+      name: TEST 7 - SPATIAL IMPRESSION, ENVELOPMENT
+      content: Please rate the test files from 0-100 on how similar the envelopment of the sound scene is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/width/alex_ref.wav
+      reference: configs/resources/audio/Test7/T7-Trio-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/width/7.1.4/7.1.4_alex_allrad.wav
-          C2: configs/resources/audio/width/7.1.4/7.1.4_alex_DTS.wav
-          C3: configs/resources/audio/width/7.1.4/7.1.4_alex_harpex.wav
+          C1: configs/resources/audio/Test7/T7-Trio-AllRad-7.1.4.wav
+          C2: configs/resources/audio/Test7/T7-Trio-DTS-7.1.4.wav
+          C3: configs/resources/audio/Test7/T7-Trio-Harpex-7.1.4.wav
+          C4: configs/resources/audio/Test7/T7-Trio-Anchor.wav
     - type: mushra
-      id: ensembleCinema2
-      name: WIDTH - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the width of the sound source is to the available reference.
+      id: CubeEnv
+      name: TEST 8 - SPATIAL IMPRESSION, ENVELOPMENT
+      content: Please rate the test files from 0-100 on how similar the envelopment of the sound scene is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/width/fever_ref.wav
+      reference: configs/resources/audio/Test8/T8-Trio-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/width/7.1.4/7.1.4_fever_allrad.wav
-          C2: configs/resources/audio/width/7.1.4/7.1.4_fever_DTS.wav
-          C3: configs/resources/audio/width/7.1.4/7.1.4_fever_harpex.wav
+          C1: configs/resources/audio/Test8/T8-Trio-Harpex-Cube.wav
+          C2: configs/resources/audio/Test8/T8-Trio-AllRad-Cube.wav
+          C3: configs/resources/audio/Test8/T8-Trio-Anchor.wav
+          C4: configs/resources/audio/Test8/T8-Trio-DTS-Cube.wav
     - type: mushra
-      id: spatImpCube1
-      name: LISTENER ENVELOPMENT - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar you feel enveloped by the sound scene to the available reference.
+      id: CinTimbre
+      name: TEST 9 - TIMBRE
+      content: Please rate the test files from 0-100 on how similar the timbre of the selected track is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/list_env/air_ref.wav 
+      reference: configs/resources/audio/Test9/T9-Piano-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/list_env/cube/air_allrad.wav 
-          C2: configs/resources/audio/list_env/cube/air_DTS.wav 
-          C3: configs/resources/audio/list_env/cube/air_Harpex.wav
+          C1: configs/resources/audio/Test9/T9-Piano-Anchor.wav
+          C2: configs/resources/audio/Test9/T9-Piano-AllRad-7.1.4.wav
+          C3: configs/resources/audio/Test9/T9-Piano-Harpex-7.1.4.wav
+          C4: configs/resources/audio/Test9/T9-Piano-DTS-7.1.4.wav
     - type: mushra
-      id: spatImpCube2
-      name: LISTENER ENVELOPMENT - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar you feel enveloped by the sound scene to the available reference.
+      id: CubeTimbre
+      name: TEST 10 - TIMBRE
+      content: Please rate the test files from 0-100 on how similar the timbre of the selected track is to the available reference.
       showWaveform: true
       enableLooping: true 
-      reference: configs/resources/audio/list_env/baroque_ref.wav 
+      reference: configs/resources/audio/Test10/T10-Piano-KU100.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/list_env/cube/baroque_allrad.wav 
-          C2: configs/resources/audio/list_env/cube/baroque_DTS.wav 
-          C3: configs/resources/audio/list_env/cube/baroque_Harpex.wav
-    - type: mushra
-      id: spatImpCinema1
-      name: LISTENER ENVELOPMENT - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar you feel enveloped by the sound scene to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/list_env/air_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/list_env/7.1.4/7.1.4_air_allrad.wav 
-          C2: configs/resources/audio/list_env/7.1.4/7.1.4_air_DTS.wav 
-          C3: configs/resources/audio/list_env/7.1.4/7.1.4_air_harpex.wav
-    - type: mushra
-      id: spatImpCinema2
-      name: LISTENER ENVELOPMENT - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar you feel enveloped by the sound scene to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/list_env/baroque_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/list_env/7.1.4/7.1.4_baroque_allrad.wav 
-          C2: configs/resources/audio/list_env/7.1.4/7.1.4_baroque_DTS.wav 
-          C3: configs/resources/audio/list_env/7.1.4/7.1.4_baroque_harpex.wav
-    - type: mushra
-      id: timbreCube1
-      name: TIMBRE - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the timbre of the sound source is to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/timbre/opener_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/timbre/cube/opener_allRad.wav
-          C2: configs/resources/audio/timbre/cube/opener_DTS.wav
-          C3: configs/resources/audio/timbre/cube/opener_Harpex.wav
-    - type: mushra
-      id: timbreCube2
-      name: TIMBRE - CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how similar the timbre of the sound source is to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/timbre/rumba_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/timbre/cube/rumba_allrad.wav
-          C2: configs/resources/audio/timbre/cube/rumba_DTS.wav
-          C3: configs/resources/audio/timbre/cube/rumba_Harpex.wav
-    - type: mushra
-      id: timbreCinema1
-      name: TIMBRE - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the timbre of the sound source is to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/timbre/opener_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/timbre/7.1.4/7.1.4_opener_allrad.wav
-          C2: configs/resources/audio/timbre/7.1.4/7.1.4_opener_DTS.wav
-          C3: configs/resources/audio/timbre/7.1.4/7.1.4_opener_harpex.wav
-    - type: mushra
-      id: timbreCinema2
-      name: TIMBRE - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how similar the timbre of the sound source is to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/timbre/rumba_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/timbre/7.1.4/7.1.4_rumba_allrad.wav
-          C2: configs/resources/audio/timbre/7.1.4/7.1.4_rumba_DTS.wav
-          C3: configs/resources/audio/timbre/7.1.4/7.1.4_rumba_harpex.wav
-    - type: mushra
-      id: prefCube1
-      name: OVERALL PREFERENCE; CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how much you prefer the track in general, with respect to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/pref/summertime_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/pref/cube/summertime_allrad.wav 
-          C2: configs/resources/audio/pref/cube/summertime_DTS.wav 
-          C3: configs/resources/audio/pref/cube/summertime_Harpex.wav
-    - type: mushra
-      id: prefCube2
-      name: OVERALL PREFERENCE; CUBE LAYOUT
-      content: Please rate the test files from 0-100 on how much you prefer the track in general, with respect to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/pref/boogie_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/pref/cube/boogie_allRad.wav 
-          C2: configs/resources/audio/pref/cube/boogie_DTS.wav 
-          C3: configs/resources/audio/pref/cube/boogie_Harpex.wav
-    - type: mushra
-      id: prefCinema1
-      name: OVERALL PREFERENCE - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how much you prefer the track in general, with respect to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/pref/summertime_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/pref/7.1.4/7.1.4_summertime_allrad.wav 
-          C2: configs/resources/audio/pref/7.1.4/7.1.4_summertime_DTS.wav 
-          C3: configs/resources/audio/pref/7.1.4/7.1.4_summertime_harpex.wav
-    - type: mushra
-      id: prefCinema2
-      name: OVERALL PREFERENCE - 7.1.4 LAYOUT
-      content: Please rate the test files from 0-100 on how much you prefer the track in general, with respect to the available reference.
-      showWaveform: true
-      enableLooping: true 
-      reference: configs/resources/audio/pref/boogie_ref.wav 
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/pref/7.1.4/7.1.4_boogie_allrad.wav 
-          C2: configs/resources/audio/pref/7.1.4/7.1.4_boogie_DTS.wav 
-          C3: configs/resources/audio/pref/7.1.4/7.1.4_boogie_harpex.wav
+          C1: configs/resources/audio/Test10/T10-Piano-AllRad-Cube.wav
+          C2: configs/resources/audio/Test10/T10-Piano-Harpex-Cube.wav
+          C3: configs/resources/audio/Test10/T10-Piano-DTS-Cube.wav
+          C4: configs/resources/audio/Test10/T10-Piano-Anchor.wav
     - type: finish
       name: Thank you
       content: Thank you for attending!
