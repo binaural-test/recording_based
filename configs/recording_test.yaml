@@ -233,36 +233,36 @@ pages:
           C2: configs/resources/audio/Test20/T20-VocalGroup-Cube-Harpex.wav
           C3: configs/resources/audio/Test20/T20-VocalGroup-Cube-DTS.wav
           C4: configs/resources/audio/Test20/T20-VocalGroup-Anchor.wav
-    - type: mushra
-      id: Test 21
-      name: TEST 21 - TIMBRE
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      showWaveform: true
-      randomize: true
-      enableLooping: true 
-      reference: configs/resources/audio/Test21/T21-AnnaBlanton-714-Reference-HPF.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test21/T21-AnnaBlanton-714-AllRAD.wav
-          C2: configs/resources/audio/Test21/T21-AnnaBlanton-714-Anchor.wav
-          C3: configs/resources/audio/Test21/T21-AnnaBlanton-714-DTS.wav
-          C4: configs/resources/audio/Test21/T21-AnnaBlanton-714-Harpex.wav
-    - type: mushra
-      id: Test 22
-      name: TEST 22 - TIMBRE
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      showWaveform: true
-      randomize: true
-      enableLooping: true 
-      reference: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Reference-HPF.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Harpex.wav
-          C2: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-DTS.wav
-          C3: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Anchor.wav
-          C4: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-AllRAD.wav
+    # - type: mushra
+      # id: Test 21
+      # name: TEST 21 - TIMBRE
+      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      # showWaveform: true
+      # randomize: true
+      # enableLooping: true 
+      # reference: configs/resources/audio/Test21/T21-AnnaBlanton-714-Reference-HPF.wav
+      # createAnchor35: false
+      # createAnchor70: false
+      # stimuli:
+          # C1: configs/resources/audio/Test21/T21-AnnaBlanton-714-AllRAD.wav
+          # C2: configs/resources/audio/Test21/T21-AnnaBlanton-714-Anchor.wav
+          # C3: configs/resources/audio/Test21/T21-AnnaBlanton-714-DTS.wav
+          # C4: configs/resources/audio/Test21/T21-AnnaBlanton-714-Harpex.wav
+    # - type: mushra
+      # id: Test 22
+      # name: TEST 22 - TIMBRE
+      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      # showWaveform: true
+      # randomize: true
+      # enableLooping: true 
+      # reference: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Reference-HPF.wav
+      # createAnchor35: false
+      # createAnchor70: false
+      # stimuli:
+          # C1: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Harpex.wav
+          # C2: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-DTS.wav
+          # C3: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Anchor.wav
+          # C4: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-AllRAD.wav
     # - type: mushra
       # id: Test 23
       # name: TEST 23 - NATURALNESS/PRESENCE
