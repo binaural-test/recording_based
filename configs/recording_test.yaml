@@ -113,66 +113,66 @@ pages:
           C2: configs/resources/audio/Test12/T12-Speech-714-Harpex.wav
           C3: configs/resources/audio/Test12/T12-Speech-714-DTS.wav
           C4: configs/resources/audio/Test12/T12-Speech-714-Anchor.wav
-    # - type: mushra
-      # id: Test 13
-      # name: TEST 13 - SOURCE DISTANCE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
-      # showWaveform: true
-      # enableLooping: true 
-      # randomize: true
-      # reference: configs/resources/audio/Test13/T13-Drums-Cube-KU100-Ref_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test13/T13-Drums-Cube-Allrad.wav
-          # C2: configs/resources/audio/Test13/T13-Drums-Cube-Harpex.wav
-          # C3: configs/resources/audio/Test13/T13-Drums-Cube-DTS.wav
-          # C4: configs/resources/audio/Test13/T13-Drums-Cube-Anchor.wav
-    # - type: mushra
-      # id: Test 14
-      # name: TEST 14 - SOURCE DISTANCE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true      
-      # reference: configs/resources/audio/Test14/T14-Speech-Cube-KU100-Ref_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test14/T14-Speech-Cube-Anchor.wav
-          # C2: configs/resources/audio/Test14/T14-Speech-Cube-Allrad.wav
-          # C3: configs/resources/audio/Test14/T14-Speech-Cube-Harpex.wav
-          # C4: configs/resources/audio/Test14/T14-Speech-Cube-DTS.wav
-    # - type: mushra
-      # id: Test 15
-      # name: TEST 15 - ENSEMBLE WIDTH
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived ensemble width (i.e. the horizontal spread of the various sources in the ensemble) matches the perceived width in the given reference. A rating of 100 indicates that the ensemble width of the test signal is identical to the that of the given reference.
-      # showWaveform: true
-      # enableLooping: true 
-      # randomize: true
-      # reference: configs/resources/audio/Test15/T15-VocalGroup-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test15/T15-VocalGroup-714-Harpex.wav
-          # C2: configs/resources/audio/Test15/T15-VocalGroup-714-AllRAD.wav
-          # C3: configs/resources/audio/Test15/T15-VocalGroup-714-DTS.wav
-          # C4: configs/resources/audio/Test15/T15-VocalGroup-Anchor.wav
-    # - type: mushra
-      # id: Test 16
-      # name: TEST 16 - ENSEMBLE WIDTH
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived ensemble width (i.e. the horizontal spread of the various sources in the ensemble) matches the perceived width in the given reference. A rating of 100 indicates that the ensemble width of the test signal is identical to the that of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true      
-      # reference: configs/resources/audio/Test16/T16-VocalGroup-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test16/T16-VocalGroup-Cube-Harpex.wav
-          # C2: configs/resources/audio/Test16/T16-VocalGroup-Cube-DTS.wav
-          # C3: configs/resources/audio/Test16/T16-VocalGroup-Cube-ALLRad.wav
-          # C4: configs/resources/audio/Test16/T16-VocalGroup-Anchor.wav
+    - type: mushra
+      id: Test 13
+      name: TEST 13 - SOURCE DISTANCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
+      showWaveform: true
+      enableLooping: true 
+      randomize: true
+      reference: configs/resources/audio/Test13/T13-Drums-Cube-KU100-Ref_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test13/T13-Drums-Cube-Allrad.wav
+          C2: configs/resources/audio/Test13/T13-Drums-Cube-Harpex.wav
+          C3: configs/resources/audio/Test13/T13-Drums-Cube-DTS.wav
+          C4: configs/resources/audio/Test13/T13-Drums-Cube-Anchor.wav
+    - type: mushra
+      id: Test 14
+      name: TEST 14 - SOURCE DISTANCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true      
+      reference: configs/resources/audio/Test14/T14-Speech-Cube-KU100-Ref_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test14/T14-Speech-Cube-Anchor.wav
+          C2: configs/resources/audio/Test14/T14-Speech-Cube-Allrad.wav
+          C3: configs/resources/audio/Test14/T14-Speech-Cube-Harpex.wav
+          C4: configs/resources/audio/Test14/T14-Speech-Cube-DTS.wav
+    - type: mushra
+      id: Test 15
+      name: TEST 15 - ENSEMBLE WIDTH
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived ensemble width (i.e. the horizontal spread of the various sources in the ensemble) matches the perceived width in the given reference. A rating of 100 indicates that the ensemble width of the test signal is identical to the that of the given reference.
+      showWaveform: true
+      enableLooping: true 
+      randomize: true
+      reference: configs/resources/audio/Test15/T15-VocalGroup-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test15/T15-VocalGroup-714-Harpex.wav
+          C2: configs/resources/audio/Test15/T15-VocalGroup-714-AllRAD.wav
+          C3: configs/resources/audio/Test15/T15-VocalGroup-714-DTS.wav
+          C4: configs/resources/audio/Test15/T15-VocalGroup-Anchor.wav
+    - type: mushra
+      id: Test 16
+      name: TEST 16 - ENSEMBLE WIDTH
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived ensemble width (i.e. the horizontal spread of the various sources in the ensemble) matches the perceived width in the given reference. A rating of 100 indicates that the ensemble width of the test signal is identical to the that of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true      
+      reference: configs/resources/audio/Test16/T16-VocalGroup-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test16/T16-VocalGroup-Cube-Harpex.wav
+          C2: configs/resources/audio/Test16/T16-VocalGroup-Cube-DTS.wav
+          C3: configs/resources/audio/Test16/T16-VocalGroup-Cube-ALLRad.wav
+          C4: configs/resources/audio/Test16/T16-VocalGroup-Anchor.wav
     # - type: mushra
       # id: Test 17
       # name: TEST 17 - SPATIAL IMPRESSION, ENVELOPMENT
@@ -293,6 +293,14 @@ pages:
           # C2: configs/resources/audio/Test24/T24-StreetScene-Cube-Harpex.wav
           # C3: configs/resources/audio/Test24/T24-StreetScene-Cube-DTS.wav
           # C4: configs/resources/audio/Test24/T24-StreetScene-Cube-Anchor.wav
+    - type: generic
+      id: endWarn
+      name: End of the test
+      content: >         
+        Before pressing "next" on this page, please ensure that you have rated every recording, and that at least one recording per test has a rating of 100. <br/><br/>
+        Once you press "next" you will not be able to go back. Pressing next will bring you to a quick questionnaire, please fill out every section. <br/>  <br/>
+        Once the questionnaire has been completed, please press the "Submit results" button, which will display results on screen. Please email these results back.  <br/> <br/>
+
     - type: finish
       name: Thank you
       content: Thank you for attending!
