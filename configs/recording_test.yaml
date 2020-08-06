@@ -105,7 +105,7 @@ pages:
       showWaveform: true
       enableLooping: true 
       randomize: true
-      reference: configs/resources/audio/Test12/T12-Drums-714-KU100-Ref_comp_HPF.wav
+      reference: configs/resources/audio/Test12/T12-Speech-714-KU100-Ref_comp_HPF.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
@@ -195,7 +195,7 @@ pages:
       showWaveform: true
       randomize: true
       enableLooping: true 
-      reference: configs/resources/audio/Test18/T18-Trio-KU100_coomp_HPF.wav
+      reference: configs/resources/audio/Test18/T18-Trio-KU100_comp_HPF.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
