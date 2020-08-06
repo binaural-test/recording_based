@@ -83,21 +83,21 @@ pages:
         The training phase is now complete. Pressing "next" will take you to the first question of this test. <br/> <br/> 
         Once you press "next" on any of the test pages, you may press the back button to return to any previous test if needed. 
 
-    # - type: mushra
-      # id: Test 11
-      # name: TEST 11 - SOURCE DISTANCE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
-      # showWaveform: true
-      # enableLooping: true
-      # reference: configs/resources/audio/Test11/T11-Drums-714-KU100-Ref_comp_HPF.wav
-      # randomize: true
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test11/T11-Drums-714-Allrad.wav
-          # C2: configs/resources/audio/Test11/T11-Drums-714-Anchor.wav
-          # C3: configs/resources/audio/Test11/T11-Drums-714-DTS.wav
-          # C4: configs/resources/audio/Test11/T11-Drums-714-Harpex.wav
+    - type: mushra
+      id: Test 11
+      name: TEST 11 - SOURCE DISTANCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/Test11/T11-Drums-714-KU100-Ref_comp_HPF.wav
+      randomize: true
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test11/T11-Drums-714-Allrad.wav
+          C2: configs/resources/audio/Test11/T11-Drums-714-Anchor.wav
+          C3: configs/resources/audio/Test11/T11-Drums-714-DTS.wav
+          C4: configs/resources/audio/Test11/T11-Drums-714-Harpex.wav
     - type: mushra
       id: Test 12
       name: TEST 12 - SOURCE DISTANCE
