@@ -61,21 +61,21 @@ pages:
         Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/> <br/>
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
         
-    # - type: mushra
-      # id: Training
-      # name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
-      # showWaveform: true
-      # enableLooping: true 
-      # randomize: true
-      # reference: configs/resources/audio/training/training_ref.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/training/training_anchor.wav
-          # C2: configs/resources/audio/training/training_harpex.wav
-          # C3: configs/resources/audio/training/training_DTS.wav
-          # C4: configs/resources/audio/training/training_allrad.wav
+    - type: mushra
+      id: Training
+      name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
+      showWaveform: true
+      enableLooping: true 
+      randomize: true
+      reference: configs/resources/audio/training/training_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/training/training_anchor.wav
+          C2: configs/resources/audio/training/training_harpex.wav
+          C3: configs/resources/audio/training/training_DTS.wav
+          C4: configs/resources/audio/training/training_allrad.wav
     - type: generic
       id: testStart
       name:  Start of Test
