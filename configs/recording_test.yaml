@@ -61,21 +61,21 @@ pages:
         Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/> <br/>
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
         
-    - type: mushra
-      id: Training
-      name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
-      showWaveform: true
-      enableLooping: true 
-      randomize: true
-      reference: configs/resources/audio/training/training_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/training/training_anchor.wav
-          C2: configs/resources/audio/training/training_harpex.wav
-          C3: configs/resources/audio/training/training_DTS.wav
-          C4: configs/resources/audio/training/training_allrad.wav
+    # - type: mushra
+      # id: Training
+      # name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
+      # content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
+      # showWaveform: true
+      # enableLooping: true 
+      # randomize: true
+      # reference: configs/resources/audio/training/training_ref.wav
+      # createAnchor35: false
+      # createAnchor70: false
+      # stimuli:
+          # C1: configs/resources/audio/training/training_anchor.wav
+          # C2: configs/resources/audio/training/training_harpex.wav
+          # C3: configs/resources/audio/training/training_DTS.wav
+          # C4: configs/resources/audio/training/training_allrad.wav
     - type: generic
       id: testStart
       name:  Start of Test
@@ -83,36 +83,36 @@ pages:
         The training phase is now complete. Pressing "next" will take you to the first question of this test. <br/> <br/> 
         Once you press "next" on any of the test pages, you may press the back button to return to any previous test if needed. 
 
-    - type: mushra
-      id: Test 11
-      name: TEST 11 - SOURCE DISTANCE
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
-      showWaveform: true
-      enableLooping: true
-      reference: configs/resources/audio/Test11/T11-Drums-714-KU100-Ref_comp_HPF.wav
-      randomize: true
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/Test11/T11-Drums-714-Allrad.wav
-          C2: configs/resources/audio/Test11/T11-Drums-714-Anchor.wav
-          C3: configs/resources/audio/Test11/T11-Drums-714-DTS.wav
-          C4: configs/resources/audio/Test11/T11-Drums-714-Harpex.wav
     # - type: mushra
-      # id: Test 12
-      # name: TEST 12 - SOURCE DISTANCE
+      # id: Test 11
+      # name: TEST 11 - SOURCE DISTANCE
       # content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
       # showWaveform: true
-      # enableLooping: true 
+      # enableLooping: true
+      # reference: configs/resources/audio/Test11/T11-Drums-714-KU100-Ref_comp_HPF.wav
       # randomize: true
-      # reference: configs/resources/audio/Test12/T12-Speech-714-KU100-Ref_comp_HPF.wav
       # createAnchor35: false
       # createAnchor70: false
       # stimuli:
-          # C1: configs/resources/audio/Test12/T12-Speech-714-Allrad.wav
-          # C2: configs/resources/audio/Test12/T12-Speech-714-Harpex.wav
-          # C3: configs/resources/audio/Test12/T12-Speech-714-DTS.wav
-          # C4: configs/resources/audio/Test12/T12-Speech-714-Anchor.wav
+          # C1: configs/resources/audio/Test11/T11-Drums-714-Allrad.wav
+          # C2: configs/resources/audio/Test11/T11-Drums-714-Anchor.wav
+          # C3: configs/resources/audio/Test11/T11-Drums-714-DTS.wav
+          # C4: configs/resources/audio/Test11/T11-Drums-714-Harpex.wav
+    - type: mushra
+      id: Test 12
+      name: TEST 12 - SOURCE DISTANCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived distance of the source matches the perceived distance in the given reference. A rating of 100 indicates that the distance of the test signal is identical to the distance of the given reference.
+      showWaveform: true
+      enableLooping: true 
+      randomize: true
+      reference: configs/resources/audio/Test12/T12-Speech-714-KU100-Ref_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test12/T12-Speech-714-Allrad.wav
+          C2: configs/resources/audio/Test12/T12-Speech-714-Harpex.wav
+          C3: configs/resources/audio/Test12/T12-Speech-714-DTS.wav
+          C4: configs/resources/audio/Test12/T12-Speech-714-Anchor.wav
     # - type: mushra
       # id: Test 13
       # name: TEST 13 - SOURCE DISTANCE
