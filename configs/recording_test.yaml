@@ -263,36 +263,36 @@ pages:
           # C2: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-DTS.wav
           # C3: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Anchor.wav
           # C4: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-AllRAD.wav
-    # - type: mushra
-      # id: Test 23
-      # name: TEST 23 - NATURALNESS/PRESENCE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test23/T23-StreetScene-714-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test23/T23-StreetScene-714-DTS.wav
-          # C2: configs/resources/audio/Test23/T23-StreetScene-714-Harpex.wav
-          # C3: configs/resources/audio/Test23/T23-StreetScene-714-AllRad.wav
-          # C4: configs/resources/audio/Test23/T23-StreetScene-714-Anchor.wav
-    # - type: mushra
-      # id: Test 24
-      # name: TEST 24 - NATURALNESS/PRESENCE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test24/T24-StreetScene-Cube-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test24/T24-StreetScene-Cube-AllRad.wav
-          # C2: configs/resources/audio/Test24/T24-StreetScene-Cube-Harpex.wav
-          # C3: configs/resources/audio/Test24/T24-StreetScene-Cube-DTS.wav
-          # C4: configs/resources/audio/Test24/T24-StreetScene-Cube-Anchor.wav
+    - type: mushra
+      id: Test 23
+      name: TEST 23 - NATURALNESS/PRESENCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test23/T23-StreetScene-714-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test23/T23-StreetScene-714-DTS.wav
+          C2: configs/resources/audio/Test23/T23-StreetScene-714-Harpex.wav
+          C3: configs/resources/audio/Test23/T23-StreetScene-714-AllRad.wav
+          C4: configs/resources/audio/Test23/T23-StreetScene-714-Anchor.wav
+    - type: mushra
+      id: Test 24
+      name: TEST 24 - NATURALNESS/PRESENCE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test24/T24-StreetScene-Cube-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test24/T24-StreetScene-Cube-AllRad.wav
+          C2: configs/resources/audio/Test24/T24-StreetScene-Cube-Harpex.wav
+          C3: configs/resources/audio/Test24/T24-StreetScene-Cube-DTS.wav
+          C4: configs/resources/audio/Test24/T24-StreetScene-Cube-Anchor.wav
     - type: generic
       id: endWarn
       name: End of the test
