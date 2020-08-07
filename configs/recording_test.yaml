@@ -11,27 +11,11 @@ pages:
       id: first_page
       name: Welcome
       content: >
-        Welcome to the TCD Spatial Audio Listening Test <br/> <br/> 
-        There are two parts to this test; a short training session to familiarize yourself with the test interface, and the test itself. <br/> <br/>
+        Welcome back to the TCD Spatial Audio Listening Test <br/> <br/> 
         Once the test is finished, please fill out the questionnaire and press submit. <br/> <br/>
         You may take a break, or pull out from doing the test at any time if you wish to do so. <br/> <br/>
         The next page will contain the detailed instructions for the test. Please read this carefully before proceeding. <br/><br/><br/>
         Thank you!
-        
-    - type: generic
-      id: ListInstructions
-      name: Familiarization of training phase
-      content: > 
-        Thanks for taking part in this experiment. Please read the following instructions before beginning the test. <br/><br/>
-        The first step in this listening test is to become familiar with the testing process. This phase is called a training phase and it precedes the formal evaluation phase.  <br/> <br/>
-        The purpose of the training phase is to allow you, as an evaluator, to learn how to use the test interface and the grading scale.  <br/>
-        In the training phase you will be able to listen to some sound excerpts which are different from the reference recording in a variety of ways, as specified in the different test questions.  <br/> <br/>
-        Using the test interface, you may click on different buttons to listen to different sound excerpts.  <br/>
-        There are also two sliders under the waveform of the audio file, these can be dragged at any time to loop over the chosen range of the selected audio file.  <br/> <br/>
-        In this way you can learn to appreciate a range of different levels of quality for different recordings in terms of a variety of different attributes, as outlined in the next section. 
-        No grades given during the training phase will be taken into account in the true tests.  <br/> <br/>
-        A comfortable volume and listening level should be set and fixed during the training phase. No adjustments to the playback level should take place during the test itself.  <br/> <br/>
-        During the training phase you should be able to learn how you, as an individual, interpret the audible impairments in terms of the grading scale.  <br/> <br/>
 
     - type: generic
       id: blindGrade
@@ -51,37 +35,15 @@ pages:
         In evaluating the sound excerpts, please note that you should not necessarily give a grade in the “bad” category to the sound excerpt with the lowest quality in the test.
         However one (or more) excerpts must be given a grade of 100 because the unprocessed reference signal is included as one of the excerpts to be graded.
         Please listen to entire sample before starting playback a different recording.  <br/><br/>
-        
-    - type: generic
-      id: Interface
-      name:  User Interface
-      content: >  
-        Each page contains 5 test recordings (including a hidden reference recording), each with a slider for grading. The reference recording is located to the left of the sliders, under "reference"  <br/>  <br/>
-        The overall experiment consists of a total of 24 questions, and is divided into two seperate tests of 10 and 14 questions respectively, to allow for a quick break at the midway point of the experiment. This is test 1, which contains 10 questions. <br/>  <br/>
-        Once you are happy with your responses for a test, click the Next button to continue to the next page. Please note that at least one recording must be rated at 100 before you can proceed to the next page. <br/> <br/>
-        Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording. <br/>
-        
-    - type: mushra
-      id: Training
-      name: TRAINING - EXAMPLE TEST - LOCALISATION ACCURACY
-      content: Please rate the test signals from 0-100 in terms of how closely the perceived direction (both horizontal and elevation) of the source matches the perceived direction in the given reference. <br/> A rating of 100 indicates that the direction of the test signal is identical to the direction of the given reference.
-      showWaveform: true
-      enableLooping: true 
-      randomize: true
-      reference: configs/resources/audio/training/training_ref.wav
-      createAnchor35: false
-      createAnchor70: false
-      stimuli:
-          C1: configs/resources/audio/training/training_anchor.wav
-          C2: configs/resources/audio/training/training_harpex.wav
-          C3: configs/resources/audio/training/training_DTS.wav
-          C4: configs/resources/audio/training/training_allrad.wav
+
     - type: generic
       id: testStart
       name:  Start of Test
-      content: >  
-        The training phase is now complete. Pressing "next" will take you to the first question of this test. <br/> <br/> 
-        Once you press "next" on any of the test pages, you may press the back button to return to any previous test if needed. 
+       content: >  
+        The training phase is now complete. Pressing "next" will take you to the first question of part one of this test, which contains 10 questions. <br/> <br/> 
+        Once you are happy with your responses, click the "next" button to continue to the next page. You may press the back button to return to any previous test if needed.  <br/> <br/>
+        Please note that at least one recording must be rated at 100 before you can proceed to the next page.
+        Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording.
 
     - type: mushra
       id: Test 11
@@ -173,36 +135,36 @@ pages:
           C2: configs/resources/audio/Test16/T16-VocalGroup-Cube-DTS.wav
           C3: configs/resources/audio/Test16/T16-VocalGroup-Cube-ALLRad.wav
           C4: configs/resources/audio/Test16/T16-VocalGroup-Anchor.wav
-    # - type: mushra
-      # id: Test 17
-      # name: TEST 17 - SPATIAL IMPRESSION, ENVELOPMENT
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived spatial impression and envelopment (i.e. the perception of being surrounded or enveloped by the reproduced sound, and the overall sense of spaciousness) matches that of the given reference. A rating of 100 indicates that the spatial impression and envelopment is identical to that of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test17/T17-Trio-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test17/T17-Trio-AllRad-7.1.4.wav
-          # C2: configs/resources/audio/Test17/T17-Trio-DTS-7.1.4.wav
-          # C3: configs/resources/audio/Test17/T17-Trio-Harpex-7.1.4.wav
-          # C4: configs/resources/audio/Test17/T17-Trio-Anchor.wav
-    # - type: mushra
-      # id: Test 18
-      # name: TEST 18 - SPATIAL IMPRESSION, ENVELOPMENT
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived spatial impression and envelopment (i.e. the perception of being surrounded or enveloped by the reproduced sound, and the overall sense of spaciousness) matches that of the given reference. A rating of 100 indicates that the spatial impression and envelopment is identical to that of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test18/T18-Trio-KU100_comp_HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test18/T18-Trio-Harpex-Cube.wav
-          # C2: configs/resources/audio/Test18/T18-Trio-AllRad-Cube.wav
-          # C3: configs/resources/audio/Test18/T18-Trio-Anchor.wav
-          # C4: configs/resources/audio/Test18/T18-Trio-DTS-Cube.wav
+    - type: mushra
+      id: Test 17
+      name: TEST 17 - SPATIAL IMPRESSION, ENVELOPMENT
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived spatial impression and envelopment (i.e. the perception of being surrounded or enveloped by the reproduced sound, and the overall sense of spaciousness) matches that of the given reference. A rating of 100 indicates that the spatial impression and envelopment is identical to that of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test17/T17-Trio-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test17/T17-Trio-AllRad-7.1.4.wav
+          C2: configs/resources/audio/Test17/T17-Trio-DTS-7.1.4.wav
+          C3: configs/resources/audio/Test17/T17-Trio-Harpex-7.1.4.wav
+          C4: configs/resources/audio/Test17/T17-Trio-Anchor.wav
+    - type: mushra
+      id: Test 18
+      name: TEST 18 - SPATIAL IMPRESSION, ENVELOPMENT
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived spatial impression and envelopment (i.e. the perception of being surrounded or enveloped by the reproduced sound, and the overall sense of spaciousness) matches that of the given reference. A rating of 100 indicates that the spatial impression and envelopment is identical to that of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test18/T18-Trio-KU100_comp_HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test18/T18-Trio-Harpex-Cube.wav
+          C2: configs/resources/audio/Test18/T18-Trio-AllRad-Cube.wav
+          C3: configs/resources/audio/Test18/T18-Trio-Anchor.wav
+          C4: configs/resources/audio/Test18/T18-Trio-DTS-Cube.wav
     - type: mushra
       id: Test 19
       name: TEST 19 - TIMBRE
@@ -233,36 +195,36 @@ pages:
           C2: configs/resources/audio/Test20/T20-VocalGroup-Cube-Harpex.wav
           C3: configs/resources/audio/Test20/T20-VocalGroup-Cube-DTS.wav
           C4: configs/resources/audio/Test20/T20-VocalGroup-Anchor.wav
-    # - type: mushra
-      # id: Test 21
-      # name: TEST 21 - TIMBRE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test21/T21-AnnaBlanton-714-Reference-HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test21/T21-AnnaBlanton-714-AllRAD.wav
-          # C2: configs/resources/audio/Test21/T21-AnnaBlanton-714-Anchor.wav
-          # C3: configs/resources/audio/Test21/T21-AnnaBlanton-714-DTS.wav
-          # C4: configs/resources/audio/Test21/T21-AnnaBlanton-714-Harpex.wav
-    # - type: mushra
-      # id: Test 22
-      # name: TEST 22 - TIMBRE
-      # content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
-      # showWaveform: true
-      # randomize: true
-      # enableLooping: true 
-      # reference: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Reference-HPF.wav
-      # createAnchor35: false
-      # createAnchor70: false
-      # stimuli:
-          # C1: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Harpex.wav
-          # C2: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-DTS.wav
-          # C3: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Anchor.wav
-          # C4: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-AllRAD.wav
+    - type: mushra
+      id: Test 21
+      name: TEST 21 - TIMBRE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test21/T21-AnnaBlanton-714-Reference-HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test21/T21-AnnaBlanton-714-AllRAD.wav
+          C2: configs/resources/audio/Test21/T21-AnnaBlanton-714-Anchor.wav
+          C3: configs/resources/audio/Test21/T21-AnnaBlanton-714-DTS.wav
+          C4: configs/resources/audio/Test21/T21-AnnaBlanton-714-Harpex.wav
+    - type: mushra
+      id: Test 22
+      name: TEST 22 - TIMBRE
+      content: Please rate the test signals from 0-100 in terms of how closely the perceived timbre (i.e. the timbral quality, tone colour bright-dark, full-thin, and coloration) of the source matches the timbre of the given reference. A rating of 100 indicates that the timbre of the test signal is identical to the timbre of the given reference.
+      showWaveform: true
+      randomize: true
+      enableLooping: true 
+      reference: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Reference-HPF.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Harpex.wav
+          C2: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-DTS.wav
+          C3: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-Anchor.wav
+          C4: configs/resources/audio/Test22/T22-AnnaBlanton-Cube-AllRAD.wav
     - type: mushra
       id: Test 23
       name: TEST 23 - NATURALNESS/PRESENCE
@@ -299,7 +261,8 @@ pages:
       content: >         
         Before pressing "next" on this page, please ensure that you have rated every recording, and that at least one recording per test has a rating of 100. <br/><br/>
         Once you press "next" you will not be able to go back. Pressing next will bring you to a quick questionnaire, please fill out every section. <br/>  <br/>
-        Once the questionnaire has been completed, please press the "Submit results" button, which will display results on screen. Please email these results back.  <br/> <br/>
+        Once the questionnaire has been completed, please press the "Submit results" button, which will display results on screen. Please copy these results, and send them in an email to <br/><br/>
+        enda.bates@adaptcentre.ie.  
 
     - type: finish
       name: Thank you
