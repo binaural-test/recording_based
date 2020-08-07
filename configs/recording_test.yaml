@@ -40,7 +40,7 @@ pages:
       id: testStart
       name:  Start of Test
       content: >  
-        The training phase is now complete. Pressing "next" will take you to the first question of part one of this test, which contains 10 questions. <br/> <br/> 
+        This test contains 14 questions. Pressing "next" will take you to the first question of part one of this test, which contains 10 questions. <br/> <br/> 
         Once you are happy with your responses, click the "next" button to continue to the next page. You may press the back button to return to any previous test if needed.  <br/> <br/>
         Please note that at least one recording must be rated at 100 before you can proceed to the next page.
         Please evaluate all recordings and not just the ones you deem to be of a high quality. Give each recording a fair score compared to the ideal recording i.e. the reference recording.
