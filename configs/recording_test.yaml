@@ -146,9 +146,9 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Test17/T17-Trio-AllRad-7.1.4.wav
-          C2: configs/resources/audio/Test17/T17-Trio-DTS-7.1.4.wav
-          C3: configs/resources/audio/Test17/T17-Trio-Harpex-7.1.4.wav
+          C1: configs/resources/audio/Test17/T17-Trio-AllRad-714.wav
+          C2: configs/resources/audio/Test17/T17-Trio-DTS-714.wav
+          C3: configs/resources/audio/Test17/T17-Trio-Harpex-714.wav
           C4: configs/resources/audio/Test17/T17-Trio-Anchor.wav
     - type: mushra
       id: Test 18
